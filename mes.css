@@ -1,0 +1,52 @@
+/*div{width: 100%;
+    border: 4px double black;
+*/
+}
+
+#chatAndMessage {
+    width: 550px;
+    height: 450px;
+    overflow-y: auto;
+    border: 1px solid #dbdbdd;
+    background: #ffffff;
+    
+}
+
+.messageInChat {
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.messageClient {
+    max-width: 70%;
+    background: #00a6e8;
+    color: white;
+    left: 10px;
+    width: 80%;
+    float: left;
+    padding: 5px;
+}
+
+.messageManager {
+    border-radius:50;
+    max-width: 70%;
+    background: #dedede;
+    color: black;
+    right: 10px;
+    width: 80%;
+    float: right;
+    padding: 5px;
+}
+
+.contact:hover {
+    background: #00a6e8;
+    color: white;
+
+}
+
+.contact:active {
+    background: green;
+    color: white;
+}
